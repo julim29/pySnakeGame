@@ -17,7 +17,6 @@ def main():
     game.setTileLength(20)
 
     mainMenu.addOption('Start', game)
-    mainMenu.addOption('Options', None)
     mainMenu.addOption('Exit', Game.Quit)
 
     game.setLoseWindow(mainMenu)
